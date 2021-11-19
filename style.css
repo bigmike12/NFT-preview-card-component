@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background: hsl(217, 54%, 11%);
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  border-radius: 10px;
+  background-color: hsl(216, 50%, 16%);
+  height: 430px;
+  width: 250px;
+  padding: 15px;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.card--image {
+  margin-bottom: 15px;
+  text-align: center;
+  height: 220px;
+}
+
+.card--image img {
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.card--body {
+  text-align: left;
+}
+
+.card--body h1 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 12px;
+}
+
+.card--body p {
+  color: hsl(215, 51%, 70%);
+  font-size: 13px;
+  line-height: 1.1rem;
+  margin-bottom: 15px;
+}
+
+.card--num {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 0.5px solid hsl(215, 51%, 70%);
+}
+
+#amount i,
+#time i {
+    position: relative;
+    top: 2px;
+    margin-right: 3px;
+}
+
+#amount {
+    color: hsl(178, 100%, 50%);
+    font-size: 14px;
+}
+
+#time {
+    color: hsl(215, 51%, 70%);
+    font-size: 14px;
+    
+}
+
+.author {
+    display: flex;
+    flex-direction: row;
+}
+
+.author--pic {
+    height: 25px;
+}
+
+.author--pic img {
+    height: 100%;
+}
+
+.author--name p {
+    font-size: 13px;
+    margin-left: 13px;
+    color: hsl(215, 51%, 70%);
+    position: relative;
+    top: 4px;
+}
+
+.author--name span {
+    color: hsl(0, 0%, 100%);
+}
