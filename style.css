@@ -28,16 +28,16 @@ body {
 .card {
   border-radius: 10px;
   background-color: hsl(216, 50%, 16%);
-  height: 430px;
-  width: 250px;
+  height: 490px;
+  width: 300px;
   padding: 15px;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
 }
 
 .card--image {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   text-align: center;
-  height: 220px;
+  height: 270px;
 }
 
 .card--image img {
@@ -65,27 +65,27 @@ body {
 }
 
 .card--num {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   margin-bottom: 15px;
-  padding-bottom: 15px;
+  padding-bottom: 45px;
   border-bottom: 0.5px solid hsl(215, 51%, 70%);
 }
 
 #amount i,
 #time i {
+    display: inline-block;
     position: relative;
     top: 2px;
     margin-right: 3px;
 }
 
 #amount {
+    float: left;
     color: hsl(178, 100%, 50%);
     font-size: 14px;
 }
 
 #time {
+    float: right;
     color: hsl(215, 51%, 70%);
     font-size: 14px;
     
